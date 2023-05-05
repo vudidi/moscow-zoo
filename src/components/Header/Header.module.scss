@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+  //   &__toolbar {
+  //     flex-direction: column-reverse;
+  //   }
+  &__backgroundImg {
+    background-image: url('../../assets/img/lark_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 130px;
+    opacity: 0.8;
+    margin: 10px 10px 10px 0;
+  }
+}

@@ -15,11 +15,14 @@ const theme = createTheme({
     primary: {
       light: '#5E8C7D', // светло-зелено-серый
       main: '#363A48', // серый
-      contrastText: '#EFEFEA',
+      contrastText: '#FFF',
     },
     secondary: {
       light: '#2CAF9B', // светло-зеленый
       main: '#0E4446', // зеленый
+    },
+    info: {
+      main: '#363A48',
     },
     custom: {
       main: '#F8763C', // оранжевый

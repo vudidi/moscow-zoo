@@ -3,8 +3,9 @@ import Head from 'next/head';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import ILayout from '../../interfaces/ILayout';
+import Header from '../Header/Header';
 import Container from '@mui/material/Container';
-import theme from '../../utils/theme';
+import theme from '../../theme/theme';
 
 const Layout: FC<ILayout> = ({ children, title }) => {
   return (
@@ -15,6 +16,7 @@ const Layout: FC<ILayout> = ({ children, title }) => {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <Header />
         <Container
           maxWidth="lg"
           sx={{
