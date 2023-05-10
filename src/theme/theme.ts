@@ -13,19 +13,16 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      light: '#5E8C7D', // светло-зелено-серый
-      main: '#363A48', // серый
+      main: '#1C4870', // синий
+      light: '#F8F4E5', // бежевый
+      dark: '#3C3B46', // серый
       contrastText: '#FFF',
     },
     secondary: {
-      light: '#2CAF9B', // светло-зеленый
-      main: '#0E4446', // зеленый
-    },
-    info: {
-      main: '#363A48',
+      main: '#91BB12', // зеленый
     },
     custom: {
-      main: '#F8763C', // оранжевый
+      main: '#D33F32', // красный
     },
   },
   breakpoints: {

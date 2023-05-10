@@ -8,7 +8,7 @@ const Cards: FC = ({ cards }) => {
   const cardsArr = cards.features.slice(0, 12).map((el) => {
     return el['properties']['Attributes'];
   });
-  // console.log('cardsArr', cardsArr);
+
   return (
     <Grid
       container

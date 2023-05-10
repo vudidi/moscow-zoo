@@ -1,0 +1,12 @@
+.select {
+  width: 200px;
+  &__input {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .select {
+    margin: 10px 0;
+  }
+}
